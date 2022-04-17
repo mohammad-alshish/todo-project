@@ -1,2 +1,2 @@
 # todo-project
-![WireFrame](./todo2.png))
+![WireFrame](./assets/todo2.png))
