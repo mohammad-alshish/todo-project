@@ -1,0 +1,60 @@
+
+        body {outline: none;
+            background-color: rgb(255, 251, 0);
+          border: 10px solid black;}
+
+: :root {
+    color: rgb(255, 255, 240);
+}
+
+header   {background-color: rgb(0, 0, 0);
+border: 1px solid black;}
+
+h1 {
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  margin-left: 240px;
+  padding: 50px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  align-content: center;
+  align-items: center;
+  font-size: 75px;
+  display: inline;
+}
+  #LOGO {width: 50;height: 50;
+    display: inline;
+  margin-left: 90px;align-items: center;}
+
+#NAV {display: inline;
+  font-size: 25px;
+margin: auto;
+margin-left:30px;
+text-decoration: none;}
+
+    table, th, td {
+  border: 1px solid black;
+padding-left: 1px;
+margin: auto;
+align-items: center;
+color: rgba(0, 0, 0, 0.479);
+font-size: 75px;
+background-color: rgb(255, 255, 255);
+}
+input {font-size: 50px;}
+
+
+#Welcome {text-align: center;
+font-size: 50px;}
+
+main {background-color: blue (201, 177, 99);}
+
+#Text { font-size: 35px;}
+
+footer {border: 1px solid black;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);text-align: center;
+font-size: 20px;}
