@@ -13,18 +13,30 @@
  }else alert(" Hi "+user+".......How are you today?"+"....:):)")
 
 
- let D = prompt("Now please The Awnser following questions,Keep your answers Yes/No please.");
+ function askAgain (answer1) {
+    let answerUpper =answer1.toUpperCase();
+    while (answerUpper != "YES" && answerUpper != "NO" && answerUpper != "Y" && answerUpper != "N") {
+        answer1 = prompt("Please answer with Yes/Y or No/N");
+        answerUpper= answer1.toUpperCase ();
+    }
+    return answer1;
+}
+let answers = [];
 
 
- let yesNo = ["", "" , ""];
- while  (yesNo[0] === "" && yesNo[1] === "" && yesNo[2] === "" ) {
-    yesNo = [prompt ("Are you student?"),prompt ("Do you like videgames?"),prompt ("Honestly,Do you like my work?")];
-     var ans = "Invalid"
-     alert ("Invalid,please answer the questions")}
+let answer = prompt("Do you like games?\n Please answer with Yes/Y or No/N");
+answers.push(askAgain(answer));
 
- for (let i = 0; i < yesNo.length; i++) {
- console.log(yesNo[i]);
- }
+
+
+answer = prompt("Do you know Python laungue?\n Please answer with Yes/Y or No/N");
+answers.push(askAgain(answer));
+
+
+answer = prompt(" Do you like my page?\n Please answer with Yes/Y or No/N");
+answers.push(askAgain(answer));
+
+console.log(answers)
 
 
         
